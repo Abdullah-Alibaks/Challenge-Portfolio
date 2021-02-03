@@ -13,14 +13,17 @@
 | Stap        | Taak                                           | Verwachte tijdsduur | Status |
 | ----------- | ---------------------------------------------- | ------------------- | ------ |
 | Planning    | Planning maken                                 | 00:30 u             | Bezig  |
-| Ontwerpen   | Mockup van portfolio maken                     |                     |        |
-| ...         | Styling van elementen bepalen                  |                     |        |
-| Realiseren  | Bestanden aanmaken                             |                     |        |
-| ...         |                                                |                     |        |
-| Testen      | Applicatie testen                              |                     |        |
+| Ontwerpen   | Mockup van portfolio maken                     | 00:30 u             |        |
+| ...         | Styling van elementen bepalen                  | 00:30 u             |        |
+| Realiseren  | Bestanden aanmaken                             | 00:10 u             |        |
+| ...         | HTML Basis aanmaken                            | 00:05 u             |        |
+|             | Menu en navigatie maken &stijlen               | 01:00 u             |        |
+|             | Layout stijlen en invullen met content         | 02:00 u             |        |
+| Testen      | Applicatie testen                              | 01:00 u             |        |
 | ...         |                                                |                     |        |
 | Verbeteren  | Problemen gevonden tijdens het testen oplossen |                     |        |
+| ...         | Probleem opsporen in de code                   | 01:00 u             |        |
+|             | De code aanpassen en/of verbeteren             | 01:00 u             |        |
+| Presenteren |                                                | 00:15 u             |        |
 | ...         |                                                |                     |        |
-| Presenteren |                                                |                     |        |
-| ...         |                                                |                     |        |
-| Refecteren  | Reflectiedocument schrijven                    |                     |        |
+| Refecteren  | Reflectiedocument schrijven                    | 02:00 u             |        |
