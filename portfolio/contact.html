@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+            
+            <div class="topnav">
+                    <ul class="main-nav">
+                        <li><a href="index.html">Homepagina</a></li>
+                        <li><a href="over-mij.html">Over Mij</a></li>
+                        <li><a href="projecten.html">Projecten</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        </ul>
+            </div>
+            <h1>Contact</h1>
+            
+    </header>
+    <main>
+        <div class="containercontact">
+                <div class="contact-info">
+                        <h2>Contact Gegevens:</h2>
+                        <h3>Email: appiealibaks@gmail.com <br>
+                            Telefoon: +31639376756<br>
+                            U kunt ook contact opnemen via het formulier hieronder.<br>
+                            Verder kunt mij ook bereiken via social media, die zijn onderaan de pagina te vinden.<br>
+                        </h3>
+        </div>
+
+        
+        </div>
+			<div class="containerc">
+			 	<form action="contact.html">
+			    <label for="Name">Naam</label>
+			    <input type="text" id="Name" name="firstname" placeholder="Naam">
+
+			    <label for="country">Land</label>
+			    <select id="country" name="country">
+			      <option value="Nederland">Nederland</option>
+			      <option value="Belgie">Belgie</option>
+			      <option value="Overig">Overig</option>
+                </select>
+                <label for="onderwerp">onderwerp</label>
+			    <input type="text" id="onderwerp" name="onderwerp" placeholder="onderwerp..">
+			    <label for="subject">Vraag</label>
+			    <textarea id="subject" name="subject" placeholder="Tekst.." style="height:200px"></textarea>
+
+			    <input onclick="alert ('U vraag is verzonden!')"type="submit"value="Submit">
+				</form>
+			</div>
+
+    </main>
+    <footer class="footer-distributed">
+            <div class="footer-right">
+
+                <a href="https://www.facebook.com/abdullah.alibaks" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/abdullah-alibaks-891727170/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/Abdullah-Alibaks" target="_blank"><i class="fa fa-github"></i></a>
+    
+                </div>
+             <div class="footer-left">
+                     <p>Abdullah Alibaks</p>
+                     <p id="date"></p>
+                 </div>
+
+    </footer>
+    
+
+</body>
+</html>
